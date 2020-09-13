@@ -1,0 +1,58 @@
+navigasi : 
+	- tentang
+	- galeri
+	- berita
+	- kata mereka
+	- pesan
+	- (translater bahasa en - ic)
+banner
+	- Garuda Wisnu Kencana / GARUDA WISNU KENCANA
+	- Perjalanan Tak Terlupakan Bertema Unik di Taman Budaya GWK
+tentang
+	- Gwk Bali / 21:46 08/03/2018
+	- Taman Budaya Garuda Wisnu Kencana, disingkat GWK, adalah sebuah taman wisata di bagian selatan pulau Bali. Taman wisata ini terletak di tanjung Nusa Dua, Kabupaten Badung, kira-kira 40 kilometer di sebelah selatan Denpasar, ibu kota provinsi Bali. Di areal ...
+
+galeri
+
+peta	
+	- 
+berita
+	- "TEMPAT"
+	- "KINERJA BUDAYA"
+	- "PERBENLANJAAN"
+	- "SEJARAH"
+	- "FASILITAS"
+	- "ACARA"
+	- "KULINER"
+
+	- Objek wisata Garuda Wisnu Kencana atau terkenal dengan nama GWK Bali.
+kata mereka
+
+footer
+	- Kuliner
+	- Rujak Bali
+	- Ayam Betutu
+	- Nasi Lawar
+
+	- Kerajinan	
+	- Barong
+	- Topeng Tua
+	- Batik Bali
+
+	- Acara
+	- Tari Kecak
+	- Jackcloth
+	- Soft Jazz
+
+	- 2018 Allright Reserved
+
+	Jl. Raya Uluwatu, Ungasan, Kuta Selatan
+	Badung 80364, Bali-Indonesia
+	+62 (902) 786 757
+	+62 (783) 564 287
+	admin@gwkbali.com
+	Buka Jam 08.00 - 22.00 WITA
+
+background
+	- #56A0CB
+	

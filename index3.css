@@ -1,0 +1,73 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+a{cursor: pointer; text-decoration: none; color:#56a0cb;}
+ul li{list-style: none; display: inline-block;}
+img{width:100%;}
+body{color:#666; font-family:quicksand; font-size:12px;}
+@font-face{src:url("font/Quicksand-Light.ttf"); font-family: quicksand}
+
+div[class*="col_"]{float:left}
+.col_5{width:50%;}
+.col_12m{width:100%;}
+.col_3{width:25%;}
+header, footer, section{width:100%; float:left;}
+.clearfix:after , .clearfix:before{content: ""; display: table; clear: both}
+.container{width:90%; max-width: 1200px; margin:auto;}
+._flex{display: flex; justify-content: space-between;align-items: center;}
+
+nav{width:100%; float: left; padding:10px 0; background:#fffc;position: fixed; top:0; left:0;z-index: 99}
+nav ul li {padding:0 5px;}
+.none{display: none !important;}
+input[type*="button"]{padding:10px 18px; background:#56a0cb; color:white; border-radius: 3px; border:1px solid white;}
+input[type*="text"]{padding:10px 18px; border:1px solid #56a0cb; color:#ccc;}
+
+header{height:100vh;background:url("svg/icon_banner.svg") no-repeat center left; background-size: 25%}
+header .col_5{height:100vh; display: flex; align-items: left; flex-direction: column; justify-content: center;}
+header table{width:75%;}
+header input{width:100%;}
+header h3, header p{margin-bottom: 15px}
+header ul li i{padding:8px; background:#56a0cb; color:white; border-radius: 3px; font-size: 1.2em !important; margin-top: 10px}
+
+.for_one{background:url("svg/fly_abu_kanan.svg") no-repeat 170% 30%; background-size: 70%}
+.for_one h3, .for_one p{margin-bottom: 10px}
+.for_one .col_5{margin-bottom: 50px}
+.for_one .col_3{position: relative;overflow: hidden;}
+.for_one .col_3 img{transition: 0.9s ease; margin-bottom: -5px}
+.for_one .col_3:hover img{transform: scale(1.1); }
+.for_one .col_3:hover .blue{opacity: 0; visibility: hidden;}
+#galeri{ width:100%; float:left;}
+.blue{width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; background:#56a0cbe6; position: absolute; top:0; left: 0; flex-direction: column; color:white; opacity: 1; transition:all 1.2s ease; visibility: visible; z-index: 10}
+
+.for_two{background:url("svg/fly_abu_kanan.svg") no-repeat 170% 30%; background-size: 70%}
+.box_flex{display: flex; justify-content: space-around; flex-flow: row wrap; width: 100%; float: left;}
+.box{margin-bottom: 25px; width:23%; background:#f7f7f7; border-radius: 3px}
+.box:hover{transform: scale(1.075) !important; box-shadow: 0 0 5px #ccc}
+.box_top{width:100%; float:left; background:url("svg/berita.svg") no-repeat center bottom; background-size: cover; height: 250px; border-radius: 3px; color:white; padding:15px;}
+.box_bot{width:100%; float:left;padding: 15px}
+.box h3, .box p{margin-bottom: 10px}
+.for_tri .col_5{padding:5% 0;}
+
+#tentang{width:100%;float:left;}
+.for_tri{background:url("svg/fly_abu_kiri.svg") no-repeat -90% 30%; background-size: 70%}
+#katamereka{width:100%; float:left;}
+#katamereka h3, #katamereka p{margin-bottom: 10px; text-align: center;}
+
+footer{background:#56a0cb url("svg/fly_biru_kiri.svg") no-repeat left top; background-size: 50%}
+footer .col_5{padding:5% 0;}
+footer input{width:100%;margin-bottom: 25px}
+footer p{line-height: 25px; color:white;}
+
+.fix, .menu_res, .modal{width:100%; height:100vh; background:white url("svg/fly_abu_kiri.svg") no-repeat -90% 30%; background-size: 70%; display: flex; align-items: center; justify-content: center; position: fixed;top:0; left:0; z-index: 99; flex-direction: column;}
+.menu_res ul li{display: block; padding: 10px 0}
+.modal input{width: 100%; margin-bottom: 10px}
+.top, .up, .box_up{opacity: 0; transform: translateY(50%); visibility: hidden;}
+ .top, .up{transition: all 1.2s ease}
+.up_new{opacity: 1; transform: translateY(0px); visibility: visible;}
+.fix h3, .fix p{margin-bottom: 10px; text-align: center;}
+
+@media screen and (max-width: 800px){
+	.hide{display: none !important;}
+	.col_12s{width:100%;}
+	header .col_5{align-items: center;}
+	.for_one .col_3{width:50%;}
+	.box{ width:48%;}
+}
